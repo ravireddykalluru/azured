@@ -5,9 +5,17 @@
        WORKING-STORAGE SECTION.
         01 WS-ACCOUNT-NO-T PIC S9(18).
         01 WS-ACCOUNT-NAME PIC X(50).
+<<<<<<< HEAD
+        01 WS-PRINT PIC X(21) VALUE 'IS ALREADY REGI'.
+=======
         01 WS-PRINT PIC X(21) VALUE 'IS ALREADY REGISTERE'.
+>>>>>>> branch 'main' of https://madevop@dev.azure.com/madevop/madevops/_git/madevops
         01 WS-ACCOUNT-NAME1 PIC X(50).
+<<<<<<< HEAD
+        01 WS-PRINT1 PIC X(23) VALUE 'SUCCESSFUL REGISTer'.
+=======
         01 WS-PRINT1 PIC X(23) VALUE 'SUCCESSFUL REGISTRATION'.
+>>>>>>> branch 'main' of https://madevop@dev.azure.com/madevop/madevops/_git/madevops
       **  01 WS-PRINT1 PIC X(23) VALUE 'YOU ARE REGISTRED Ravi'.
         01 WS-ACCOUNT-STATUS  PIC X(10).
         01 WS-MESSAGE PIC X(100).
